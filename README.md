@@ -7,4 +7,4 @@ na parte Frond-End usando o site curso em video
 https://www.cursoemvideo.com/
 <hr>
 
-ao final desse curso vou tentar criar um site de memes
+ao final desse curso vou tentar criar um site de memes ou de animes
