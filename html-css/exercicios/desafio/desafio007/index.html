@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dimensionando imagens</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagen/paisagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagen/paisagem-m.png" type="image/png">
+        <img src="imagen/paisagem-g.png" alt="">
+    </picture>
+<br>
+<picture>
+    <source media="(max-width:750px )" srcset="image/paisagem-p.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="image/paisagem-m.png" type="image/png">
+    <img src="imagen/paisagem-g.png" alt="">
+</picture>
+<br>
+<picture>
+    <source media="(min-width:750px)" srcset="image/paisagem-p" type="image/png">
+    <source media="(max-width:1050px)" srcset="image/paisagem-m" type="image/png">
+     <img src="imagen/paisagem-g.png" alt="">
+</picture>
+
+
+
+</body>
+</html>
